@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // $('#movie-container').html(renderMovies(movieData))
     // get the form element from the DOM
     const formEl = document.getElementById('search-form')
-    console.assert(formEl, 'Form element not found! Exiting...')
+    console.assert(formEl, 'Form element not found! Exciting...')
 
     // add event listener when the form was submitted
     formEl.addEventListener('submit', formSubmitted)
